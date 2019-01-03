@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="atmempresaconsultoria.studio.com.velha.MainActivity">
+
+    <Button
+        android:id="@+id/button1Id"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="110dp"
+        android:layout_toLeftOf="@+id/button2Id"
+        android:layout_toStartOf="@+id/button2Id"
+        android:width="100dp"
+        android:height="100dp"
+        android:nestedScrollingEnabled="false"
+        android:textColor="@color/colorPrimary" />
+
+    <Button
+        android:id="@+id/button2Id"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/button1Id"
+        android:layout_centerHorizontal="true"
+        android:width="100dp"
+        android:height="100dp"
+        android:textColor="@color/colorPrimary" />
+
+    <Button
+        android:id="@+id/button3Id"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/button2Id"
+        android:layout_toEndOf="@+id/button2Id"
+        android:layout_toRightOf="@+id/button2Id"
+        android:width="100dp"
+        android:height="100dp"
+        android:textColor="@color/colorPrimary" />
+
+    <Button
+        android:id="@+id/button4Id"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button1Id"
+        android:layout_alignStart="@+id/button1Id"
+        android:layout_below="@+id/button1Id"
+        android:width="100dp"
+        android:height="100dp"
+        android:textColor="@color/colorPrimary" />
+
+    <Button
+        android:id="@+id/button5Id"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button2Id"
+        android:layout_alignStart="@+id/button2Id"
+        android:layout_below="@+id/button2Id"
+        android:width="100dp"
+        android:height="100dp"
+        android:textColor="@color/colorPrimary" />
+
+    <Button
+        android:id="@+id/button6Id"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/button5Id"
+        android:layout_toEndOf="@+id/button5Id"
+        android:layout_toRightOf="@+id/button5Id"
+        android:width="100dp"
+        android:height="100dp"
+        android:textColor="@color/colorPrimary" />
+
+    <Button
+        android:id="@+id/button7Id"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button4Id"
+        android:layout_alignStart="@+id/button4Id"
+        android:layout_below="@+id/button4Id"
+        android:width="100dp"
+        android:height="100dp"
+        android:textColor="@color/colorPrimary" />
+
+    <Button
+        android:id="@+id/button8Id"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button5Id"
+        android:layout_alignStart="@+id/button5Id"
+        android:layout_below="@+id/button5Id"
+        android:width="100dp"
+        android:height="100dp"
+        android:textColor="@color/colorPrimary" />
+
+    <Button
+        android:id="@+id/button9Id"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/button8Id"
+        android:layout_toEndOf="@+id/button8Id"
+        android:layout_toRightOf="@+id/button8Id"
+        android:width="100dp"
+        android:height="100dp"
+        android:textColor="@color/colorPrimary" />
+
+    <Button
+        android:id="@+id/buttonResetId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="?attr/colorPrimary"
+        android:elevation="0dp"
+        android:paddingLeft="10sp"
+        android:paddingRight="10sp"
+        android:text="Jogar novamente"
+        android:textColor="@android:color/background_light" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewResultId"
+        android:layout_above="@+id/button2Id"
+        android:layout_centerHorizontal="true"
+        android:textSize="50dp" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dois jogadores"
+        android:id="@+id/switchDoisJogadoresId"
+        android:checked="false"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
